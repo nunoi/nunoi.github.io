@@ -1,3 +1,3 @@
-# nunoi.github.io
+# Spiff's Adventures in Strategy and Simulations
 
-My github pages site.
+Under construction
