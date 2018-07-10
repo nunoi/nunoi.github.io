@@ -1,3 +1,3 @@
-# Adventures in Strategy and Simulations
+# Spiff's Strategy and Simulations
 
 Under construction.
