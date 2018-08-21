@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery Knob demo</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <!--[if IE]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+        <script src="dist/jquery.knob.min.js"></script>
+        <script>
+            $(function($) {
+                $(".knob").knob({
+                    change : function (value) {
+                        //console.log("change : " + value);
+                    },
+                    release : function (value) {
+                        //console.log(this.$.attr('value'));
+                        console.log("release : " + value);
+						planehdg=$("#phdg").val();
+						console.log("plane " + planehdg);
+						windhdg=$("#whdg").val();
+						console.log("wind " + windhdg);
+						windspeed=$("#wspeed").val();
+						console.log("wind speed " + windspeed);
+						result=calculate_heading(planehdg, windhdg);
+						console.log("calc result: " + result);
+						$("#reswind").val(result);
+						$("#resspeed").val(windspeed);
+                    },
+                    cancel : function () {
+                        console.log("cancel : ", this);
+                    },
+                    /*format : function (value) {
+                        return value + '%';
+                    },*/
+                    draw : function () {
+                        // "tron" case
+                        if(this.$.data('skin') == 'tron') {
+                            this.cursorExt = 0.3;
+                            var a = this.arc(this.cv)  // Arc
+                                , pa                   // Previous arc
+                                , r = 1;
+                            this.g.lineWidth = this.lineWidth;
+                            if (this.o.displayPrevious) {
+                                pa = this.arc(this.v);
+                                this.g.beginPath();
+                                this.g.strokeStyle = this.pColor;
+                                this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, pa.s, pa.e, pa.d);
+                                this.g.stroke();
+                            }
+                            this.g.beginPath();
+                            this.g.strokeStyle = r ? this.o.fgColor : this.fgColor ;
+                            this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, a.s, a.e, a.d);
+                            this.g.stroke();
+                            this.g.lineWidth = 2;
+                            this.g.beginPath();
+                            this.g.strokeStyle = this.o.fgColor;
+                            this.g.arc( this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
+                            this.g.stroke();
+                            return false;
+                        }
+                    }
+                });
+            });
+			function calculate_heading(ph, wh) {
+				temp = wh - ph;
+				console.log("temp " + temp);
+				relh = temp;
+				if (temp > 180) {
+					relh = temp - 360;
+				}
+				else if (temp < -180) {
+					relh = 360 + temp;
+				}
+				return relh;
+			}
+        </script>
+        <style>
+            body{
+              padding: 0;
+              margin: 0px 50px;
+              font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+              font-weight: 300;
+              text-rendering: optimizelegibility;
+            }
+            p{font-size: 24px; line-height: 24px}
+            div.demo{text-align: center; width: 280px; float: left}
+            div.demo > p{font-size: 20px}
+        </style>
+    </head>
+    <body>
+        <div style="width:100%;font-size:24px">
+            <h1>IL2 BoX Bombsight Wind Calculator</h1>
+        </div>
+        <div>
+            <p>Input the plane's heading, the wind heading and speed and you'll get the relative wind angle and speed you'll have to input in the bombsight</p>
+        </div>
+        <div class="demo">
+            <p>&#215; Plane Heading</p>
+            <input class="knob" id="phdg" data-width="200" data-min=0 data-max=359 data-cursor=true data-fgColor="#EE2222" value=0>
+        </div>
+        <div class="demo">
+            <p>&#215; Wind Heading</p>
+            <input class="knob" id="whdg" data-width="200" data-min=0 data-max=359 data-cursor=true data-fgColor="#2222EE" value=0>
+        </div>
+        <div class="demo">
+            <p>&#215; Wind Speed (m/s)</p>
+            <input class="knob" id="wspeed" data-angleOffset=-125 data-angleArc=250 data-min=0 data-max=30 data-fgColor="#66EE66" data-rotation="clockwise" value="0">
+        </div>
+        <div style="clear:both"></div>
+        <div style="text-align: center">
+            <p style="font-size: 20px">&#215; Results</p>
+			<p>Relative Wind Direction <input id="reswind" "width: 104px; height: 66px; position: absolute; vertical-align: middle; margin-top: 66px; margin-left: -152px; border: 0px none; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; font: bold 40px Arial; text-align: center; color: rgb(238, 34, 34); padding: 0px;"></input></p>
+			<p>Wind Speed <input id="resspeed"></input> m/s</p>
+        </div>
+        <div style="clear:both"></div>
+    </body>
+</html>
