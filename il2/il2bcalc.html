@@ -12,18 +12,26 @@
                         //console.log("change : " + value);
                     },
                     release : function (value) {
-                        //console.log(this.$.attr('value'));
-                        console.log("release : " + value);
-						planehdg=$("#phdg").val();
-						console.log("plane " + planehdg);
-						windhdg=$("#whdg").val();
-						console.log("wind " + windhdg);
-						windspeed=$("#wspeed").val();
-						console.log("wind speed " + windspeed);
-						result=calculate_heading(planehdg, windhdg);
-						console.log("calc result: " + result);
-						$("#reswind").val(result);
-						$("#resspeed").val(windspeed);
+						if ((this.$.attr('id') !== "swhdg") && (this.$.attr('id') !== "swspeed")) {
+							// console.log(this.$.attr('id'));
+							planehdg=$("#phdg").val();
+							windhdg=$("#whdg").val();
+							windspeed=$("#wspeed").val();
+							result=calculate_heading(planehdg, windhdg);
+	/*                        console.log("release : " + value);
+							console.log("plane " + planehdg);
+							console.log("wind " + windhdg);
+							console.log("wind speed " + windspeed);
+							console.log("calc result: " + result);*/
+							$("#reswind").val(result);
+							$("#resspeed").val(windspeed);
+							$("#swhdg")
+								.val(result)
+								.trigger('change');
+							$("#swspeed")
+								.val(windspeed)
+								.trigger('change');
+						}
                     },
                     cancel : function () {
                         console.log("cancel : ", this);
@@ -33,36 +41,11 @@
                     },*/
                     draw : function () {
                         // "tron" case
-                        if(this.$.data('skin') == 'tron') {
-                            this.cursorExt = 0.3;
-                            var a = this.arc(this.cv)  // Arc
-                                , pa                   // Previous arc
-                                , r = 1;
-                            this.g.lineWidth = this.lineWidth;
-                            if (this.o.displayPrevious) {
-                                pa = this.arc(this.v);
-                                this.g.beginPath();
-                                this.g.strokeStyle = this.pColor;
-                                this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, pa.s, pa.e, pa.d);
-                                this.g.stroke();
-                            }
-                            this.g.beginPath();
-                            this.g.strokeStyle = r ? this.o.fgColor : this.fgColor ;
-                            this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, a.s, a.e, a.d);
-                            this.g.stroke();
-                            this.g.lineWidth = 2;
-                            this.g.beginPath();
-                            this.g.strokeStyle = this.o.fgColor;
-                            this.g.arc( this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
-                            this.g.stroke();
-                            return false;
-                        }
                     }
                 });
             });
 			function calculate_heading(ph, wh) {
 				temp = wh - ph;
-				console.log("temp " + temp);
 				relh = temp;
 				if (temp > 180) {
 					relh = temp - 360;
@@ -95,15 +78,24 @@
         </div>
         <div class="demo">
             <p>&#215; Plane Heading</p>
-            <input class="knob" id="phdg" data-width="200" data-min=0 data-max=359 data-cursor=true data-fgColor="#EE2222" value=0>
+            <input class="knob" id="phdg" data-width="200" data-min=0 data-max=359 data-cursor=true data-fgColor="#992222" value=0>
         </div>
         <div class="demo">
             <p>&#215; Wind Heading</p>
-            <input class="knob" id="whdg" data-width="200" data-min=0 data-max=359 data-cursor=true data-fgColor="#2222EE" value=0>
+            <input class="knob" id="whdg" data-width="200" data-min=0 data-max=359 data-cursor=true data-fgColor="#222299" value=0>
         </div>
         <div class="demo">
             <p>&#215; Wind Speed (m/s)</p>
-            <input class="knob" id="wspeed" data-angleOffset=-125 data-angleArc=250 data-min=0 data-max=30 data-fgColor="#66EE66" data-rotation="clockwise" value="0">
+            <input class="knob" id="wspeed" data-angleOffset=-125 data-angleArc=250 data-min=0 data-max=30 data-fgColor="#229922" data-rotation="clockwise" value="0">
+        </div>
+        <div style="clear:both"></div>
+		<div class="demo">
+            <p>&#215; Sight Wind Heading</p>
+            <input class="knob" id="swhdg" data-readOnly=true data-thickness=.6 data-angleOffset=180 data-width="200" data-min=-179 data-max=180 data-cursor=true data-fgColor="#EE2222" value=0>
+        </div>
+		<div class="demo">
+            <p>&#215; Sight Wind Speed</p>
+            <input class="knob" id="swspeed" data-readOnly=true data-thickness=.6 data-angleOffset=-125 data-angleArc=250 data-min=0 data-max=30 data-cursor=true data-fgColor="#66EE66" data-rotation="clockwise" value="0">
         </div>
         <div style="clear:both"></div>
         <div style="text-align: center">
