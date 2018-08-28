@@ -72,9 +72,8 @@
 			div.results{
 				position: fixed;
 				bottom: 0;
-				left: 0;
-				height: 30%;
-				width: 100%;
+				right: 0;
+				width: 25%;
 				z-index: 999;
 				background-color: #AAAAAA;
 				color: #000000;
@@ -105,15 +104,17 @@
         </div>
         <div class="demo">
             <p>&#215; Plane Heading</p>
-            <input class="knob" id="phdg" data-width="200" data-min=0 data-max=359 data-cursor=true data-bgColor="#444444" data-fgColor="#992222" value=0>
+            <input class="knob" id="phdg" data-width="200" data-min=0 data-max=359 data-cursor=true data-bgColor="#444444" data-fgColor="#FF6666" value=0>
         </div>
+        <div style="clear:both"></div>
         <div class="demo">
             <p>&#215; Wind Heading</p>
-            <input class="knob" id="whdg" data-width="200" data-min=0 data-max=359 data-cursor=true data-bgColor="#444444" data-fgColor="#222299" value=0>
+            <input class="knob" id="whdg" data-width="200" data-min=0 data-max=359 data-cursor=true data-bgColor="#444444" data-fgColor="#6666FF" value=0>
         </div>
+        <div style="clear:both"></div>
         <div class="demo">
             <p>&#215; Wind Speed (m/s)</p>
-            <input class="knob" id="wspeed" data-angleOffset=-125 data-angleArc=250 data-min=0 data-max=30 data-bgColor="#444444" data-fgColor="#229922" data-rotation="clockwise" value="0">
+            <input class="knob" id="wspeed" data-angleOffset=-125 data-angleArc=250 data-min=0 data-max=30 data-bgColor="#444444" data-fgColor="#66FF66" data-rotation="clockwise" value="0">
         </div>
         <div style="clear:both"></div>
 		<div class="results">
@@ -123,11 +124,12 @@
 			<div style="clear:both"></div>
 			<div class="demo">
 				<p>&#215; Sight Wind Heading</p>
-				<input class="knob" id="swhdg" data-readOnly=true data-thickness=.6 data-angleOffset=180 data-width="120" data-min=-179 data-max=180 data-cursor=true data-fgColor="#EE2222" value=0>
+				<input class="knob" id="swhdg" data-readOnly=true data-thickness=.6 data-angleOffset=180 data-width="50%" data-min=-179 data-max=180 data-cursor=true data-fgColor="#EE2222" value=0>
 			</div>
+			<div style="clear:both"></div>
 			<div class="demo">
 				<p>&#215; Sight Wind Speed</p>
-				<input class="knob" id="swspeed" data-readOnly=true data-thickness=.6 data-angleOffset=-125 data-width="120" data-angleArc=250 data-min=0 data-max=30 data-cursor=true data-fgColor="#66EE66" data-rotation="clockwise" value="0">
+				<input class="knob" id="swspeed" data-readOnly=true data-thickness=.6 data-angleOffset=-125 data-width="50%" data-angleArc=250 data-min=0 data-max=30 data-cursor=true data-fgColor="#33EE33" data-rotation="clockwise" value="0">
 			</div>
 		</div>
 <!--        <div style="clear:both"></div>
