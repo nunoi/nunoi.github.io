@@ -66,7 +66,6 @@
 				background-color: #333333;
 				color: #AAAAAA;
 				height: 100%;   
-				overflow: hidden;  /*makes the body non-scrollable (we will add scrolling to the sidebar and main content containers)*/
 				margin: 0px;  /*removes default style*/
 				display: flex;  /*enables flex content for its children*/
 				box-sizing: border-box;
@@ -91,12 +90,10 @@
 			}
 			.bottom {
 				flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
-				overflow-y: auto;  /*adds scroll to this container*/
 			}
             div.demo{
 				text-align: center;
-				width: 320px;
-				height: 320px;
+				width: 280px;
 				float: left;
 			}
 			div.demores{
@@ -145,9 +142,9 @@
 		<div id="right" class="column">
 			<div class="top-right">
 				<h1>IL2 BoX Bombsight Wind Calculator</h1>
-				<p>Input the plane's heading, the wind heading and speed and you'll get the relative wind angle and speed you'll have to input in the bombsight</p>
 			</div>
 			<div class="bottom">
+				<p>Input the plane's heading, the wind heading and speed and you'll get the relative wind angle and speed you'll have to input in the bombsight</p>
 				<div class="demo">
 					<p>&#215; Plane Heading</p>
 					<input class="knob" id="phdg" data-width="200" data-min=0 data-max=359 data-cursor=true data-bgColor="#444444" data-fgColor="#FF6666" value=0>
