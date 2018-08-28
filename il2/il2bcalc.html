@@ -57,31 +57,51 @@
 			}
         </script>
         <style>
-            body{
-              padding: 0;
-              margin: 0px 50px;
-              font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-			  background-color: #333333;
-			  color: #AAAAAA;
-            }
+			html {
+				height: 100%;
+			}
+			body
+			{
+				margin: 0;
+				background-color: #333333;
+				color: #AAAAAA;
+				height: 100%;   
+				overflow: hidden;  /*makes the body non-scrollable (we will add scrolling to the sidebar and main content containers)*/
+				margin: 0px;  /*removes default style*/
+				display: flex;  /*enables flex content for its children*/
+				box-sizing: border-box;
+			}
+			.column {
+				height: 100%;  /*allows both columns to span the full height of the browser window*/
+				display: flex;
+				flex-direction: column;  /*places the left and right headers above the bottom content*/
+			}
+			#left {
+				flex-shrink: 0;  /*makes sure that content is not cut off in a smaller browser window*/
+				background-color: #AAAAAA;
+				color: #000000;
+			}
+			.top-left {
+				flex-shink: 0;
+			}
+
+			.top-right {
+				flex-shrink: 0;
+				display: inline-flex;
+			}
+			.bottom {
+				flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
+				overflow-y: auto;  /*adds scroll to this container*/
+			}
             div.demo{
 				text-align: center;
-				width: 300px;
+				width: 320px;
+				height: 320px;
 				float: left;
 			}
 			div.demores{
 				text-align: center;
 				float: left;
-			}
-			div.results{
-				position: fixed;
-				top: 30%;
-				right: 0;
-				width: 200px;
-				z-index: 999;
-				background-color: #AAAAAA;
-				color: #000000;
-				opacity: 1;
 			}
         </style>
 <!--        <style>
@@ -100,48 +120,54 @@
         </style>-->
 	</head>
     <body>
-        <div style="width:100%;font-size:20px">
-            <h1>IL2 BoX Bombsight Wind Calculator</h1>
-        </div>
-        <div>
-            <p>Input the plane's heading, the wind heading and speed and you'll get the relative wind angle and speed you'll have to input in the bombsight</p>
-        </div>
-        <div class="demo">
-            <p>&#215; Plane Heading</p>
-            <input class="knob" id="phdg" data-width="100%" data-min=0 data-max=359 data-cursor=true data-bgColor="#444444" data-fgColor="#FF6666" value=0>
-        </div>
-        <div style="clear:both"></div>
-        <div class="demo">
-            <p>&#215; Wind Heading</p>
-            <input class="knob" id="whdg" data-width="100%" data-min=0 data-max=359 data-cursor=true data-bgColor="#444444" data-fgColor="#6666FF" value=0>
-        </div>
-        <div style="clear:both"></div>
-        <div class="demo">
-            <p>&#215; Wind Speed (m/s)</p>
-            <input class="knob" id="wspeed" data-width="100%" data-angleOffset=-125 data-angleArc=250 data-min=0 data-max=30 data-bgColor="#444444" data-fgColor="#66FF66" data-rotation="clockwise" value="0">
-        </div>
-        <div style="clear:both"></div>
-		<div class="results">
-			<div>
+		
+		<!-- Left column -->
+		
+		<div id="left" class="column">
+			<div class="top-left">
 				<p style="font-weight: bold; text-align: center">Results</p>
 			</div>
-			<div style="clear:both"></div>
-			<div class="demores">
-				<p>&#215; Sight Wind Heading</p>
-				<input class="knob" id="swhdg" data-readOnly=true data-thickness=.6 data-angleOffset=180 data-width="50%" data-min=-179 data-max=180 data-cursor=true data-fgColor="#EE2222" value=0>
-			</div>
-			<div style="clear:both"></div>
-			<div class="demores">
-				<p>&#215; Sight Wind Speed</p>
-				<input class="knob" id="swspeed" data-readOnly=true data-thickness=.6 data-angleOffset=-125 data-width="50%" data-angleArc=250 data-min=0 data-max=30 data-cursor=true data-fgColor="#33EE33" data-rotation="clockwise" value="0">
+			<div class="bottom">
+				<div class="demores">
+					<p>&#215; Sight Wind Heading</p>
+					<input class="knob" id="swhdg" data-readOnly=true data-thickness=.6 data-angleOffset=180 data-width="50%" data-min=-179 data-max=180 data-cursor=true data-fgColor="#EE2222" value=0>
+				</div>
+				<div style="clear:both"></div>
+				<div class="demores">
+					<p>&#215; Sight Wind Speed</p>
+					<input class="knob" id="swspeed" data-readOnly=true data-thickness=.6 data-angleOffset=-125 data-width="50%" data-angleArc=250 data-min=0 data-max=30 data-cursor=true data-fgColor="#33EE33" data-rotation="clockwise" value="0">
+				</div>
 			</div>
 		</div>
-<!--        <div style="clear:both"></div>
-        <div style="text-align: center">
-            <p style="font-size: 20px">&#215; Results</p>
-			<p>Relative Wind Direction <input id="reswind" "width: 104px; height: 66px; position: absolute; vertical-align: middle; margin-top: 66px; margin-left: -152px; border: 0px none; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; font: bold 40px Arial; text-align: center; color: rgb(238, 34, 34); padding: 0px;"></input></p>
-			<p>Wind Speed <input id="resspeed"></input> m/s</p>
-        </div>-->
-        <div style="clear:both"></div>
+
+		<!-- Right column -->
+		
+		<div id="right" class="column">
+			<div class="top-right">
+				<h1>IL2 BoX Bombsight Wind Calculator</h1>
+				<p>Input the plane's heading, the wind heading and speed and you'll get the relative wind angle and speed you'll have to input in the bombsight</p>
+			</div>
+			<div class="bottom">
+				<div class="demo">
+					<p>&#215; Plane Heading</p>
+					<input class="knob" id="phdg" data-width="200" data-min=0 data-max=359 data-cursor=true data-bgColor="#444444" data-fgColor="#FF6666" value=0>
+				</div>
+				<div class="demo">
+					<p>&#215; Wind Heading</p>
+					<input class="knob" id="whdg" data-width="200" data-min=0 data-max=359 data-cursor=true data-bgColor="#444444" data-fgColor="#6666FF" value=0>
+				</div>
+				<div class="demo">
+					<p>&#215; Wind Speed (m/s)</p>
+					<input class="knob" id="wspeed" data-width="200" data-angleOffset=-125 data-angleArc=250 data-min=0 data-max=30 data-bgColor="#444444" data-fgColor="#66FF66" data-rotation="clockwise" value="0">
+				</div>
+		<!--        <div style="clear:both"></div>
+				<div style="text-align: center">
+					<p style="font-size: 20px">&#215; Results</p>
+					<p>Relative Wind Direction <input id="reswind" "width: 104px; height: 66px; position: absolute; vertical-align: middle; margin-top: 66px; margin-left: -152px; border: 0px none; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; font: bold 40px Arial; text-align: center; color: rgb(238, 34, 34); padding: 0px;"></input></p>
+					<p>Wind Speed <input id="resspeed"></input> m/s</p>
+				</div>-->
+				<div style="clear:both"></div>
+			</div>
+		</div>
     </body>
 </html>
