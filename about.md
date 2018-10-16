@@ -4,6 +4,8 @@ theme: jekyll-theme-cayman
 title: About
 ---
 
+## About Spiff
+
 Spiff is my secret alter-ego. 
 
 I'm a fourty something guy who has always been passionate about strategy 
