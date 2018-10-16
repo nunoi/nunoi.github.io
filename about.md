@@ -1,6 +1,6 @@
 ---
 layout: page
-theme: slate
+theme: jekyll-theme-cayman
 title: About
 ---
 
