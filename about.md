@@ -1,5 +1,6 @@
 ---
 layout: page
+theme: slate
 title: About
 ---
 
