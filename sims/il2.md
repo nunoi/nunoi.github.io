@@ -1,7 +1,7 @@
 ---
 layout: page
 title: IL-2 Sturmovik
-feature: https://i.imgur.com/qnLihpA.jpg
+feature: https://i.imgur.com/HKffAz4.jpg
 ---
 This is the new IL-2 Sturmovik "Great Battles" series. This is an WW2 simulator
 which features great graphics, excellent physics and both online/offline play.
