@@ -6,6 +6,11 @@ feature: https://i.imgur.com/5urEgk1.jpg
 This is the new IL-2 Sturmovik "Great Battles" series. This is an WW2 simulator
 which features great graphics, excellent physics and both online/offline play.
 
+<figure class="">
+    <a href="https://i.imgur.com/awe18xa.jpg"><img src="https://i.imgur.com/awe18xa.jpg"></a>
+    <figcaption>A Spitfire Mk IX shoots down an Me-109 G-14</figcaption>
+</figure>
+
 IL-2 Great Battles is composed of several editions which can be bought separately
 but if you own several of them they are combined in a single game.
 
@@ -20,7 +25,7 @@ in early access.
 
 <figure class="">
     <a href="https://i.imgur.com/5oXhus2.jpg"><img src="https://i.imgur.com/5oXhus2.jpg"></a>
-    <figcaption>A Spitfire Mk IX bags an Me-109 G-14</figcaption>
+    <figcaption>A Spitfire Mk IX shoots down an Me-109 G-14</figcaption>
 </figure>
 
 For more details visit the [game's site](https://il2sturmovik.com/)
