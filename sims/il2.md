@@ -2,8 +2,8 @@
 layout: page
 title: IL-2 Sturmovik
 ---
-This is the new IL-2 Sturmovik "Great Battles" series. Features great graphics
-and excellent physics.
+This is the new IL-2 Sturmovik "Great Battles" series. This is an WW2 simulator
+which features great graphics, excellent physics and both online/offline play.
 
 IL-2 Great Battles is composed of several editions which can be bought separately
 but if you own several of them they are combined in a single game.
