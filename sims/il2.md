@@ -17,4 +17,4 @@ Battle of Bodenplatte is currently under development and some of its planes
 are already finished and available for players who have bought the game's 
 in early access.
 
-For more details visit the game's site at https://il2sturmovik.com/
+For more details visit the [game's site](https://il2sturmovik.com/)
