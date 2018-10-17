@@ -8,7 +8,7 @@ which features great graphics, excellent physics and both online/offline play.
 
 <figure class="">
     <a href="https://i.imgur.com/awe18xa.jpg"><img src="https://i.imgur.com/awe18xa.jpg"></a>
-    <figcaption>A Spitfire Mk IX shoots down an Me-109 G-14</figcaption>
+    <figcaption>A squadron of Pe-2s flies to its target above the frozen russian landscape</figcaption>
 </figure>
 
 IL-2 Great Battles is composed of several editions which can be bought separately
