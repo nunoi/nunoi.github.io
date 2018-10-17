@@ -1,6 +1,7 @@
 ---
 layout: page
 title: IL-2 Sturmovik
+feature: https://imgur.com/5urEgk1
 ---
 This is the new IL-2 Sturmovik "Great Battles" series. This is an WW2 simulator
 which features great graphics, excellent physics and both online/offline play.
@@ -16,5 +17,7 @@ So far the available editions are:
 Battle of Bodenplatte is currently under development and some of its planes
 are already finished and available for players who have bought the game's 
 in early access.
+
+[Imgur](https://i.imgur.com/5oXhus2.jpg)
 
 For more details visit the [game's site](https://il2sturmovik.com/)
