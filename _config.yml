@@ -34,7 +34,7 @@ sass:
 # if you don't have any of social below, comment the line.
 #google:
   #plus:            #username
-  #analytics:
+  analytics:  UA-127763088-1
   #verify:
   #ad-client:
   #ad-slot:
