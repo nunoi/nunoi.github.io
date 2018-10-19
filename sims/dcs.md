@@ -9,7 +9,7 @@ to modern day jet fighters as well as helicopters and to a limited extent some
 ground units. Although the base game is free, additional content is payed.
 
 <figure class="">
-    <a href="https://i.imgur.com/0vI60zu.jpg?1"><img src="https://i.imgur.com/0vI60zu.jpg?1"></a>
+    <a href="https://i.imgur.com/0vI60zu.jpg"><img src="https://i.imgur.com/0vI60zu.jpg"></a>
     <figcaption>An F/A-18C preparing to land on a carrier</figcaption>
 </figure>
 
