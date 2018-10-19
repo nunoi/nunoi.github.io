@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Simulators
+permalink: /sims/
 ---
 
 Some of my favourite simulators, encompassing flight and racing.
