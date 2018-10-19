@@ -40,3 +40,5 @@ produce modules for DCS.
 For more details visit the [DCS World site](https://www.digitalcombatsimulator.com/)
 
 Additional [DCS Screenshots](https://www.digitalcombatsimulator.com/en/downloads/screenshots/)
+
+Keep up to date with DCS news with [Stormbirds](https://stormbirds.blog/)
