@@ -33,4 +33,4 @@ in early access.
 
 ### Links
 
-For more details visit the [game's site](https://il2sturmovik.com/)
+For more details visit the [IL-2 site](https://il2sturmovik.com/)
