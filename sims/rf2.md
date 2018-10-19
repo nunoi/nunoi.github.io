@@ -4,4 +4,4 @@ title: rFactor 2
 feature: https://i.imgur.com/zIoVLUs.png
 ---
 
-TBD
+Coming soon
