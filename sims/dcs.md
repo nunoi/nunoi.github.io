@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DCS World - Digital Combat Simulator
-feature: https://i.imgur.com/iSt4DhA.jpg
+feature: https://i.imgur.com/z5ruiPj.jpg
 ---
 
 DCS is a free to play simulator that models planes from WW2 propeller aircraft era 
