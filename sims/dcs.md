@@ -9,8 +9,8 @@ to modern day jet fighters as well as helicopters and to a limited extent some
 ground units. Although the base game is free, additional content is payed.
 
 <figure class="">
-    <a href="https://www.digitalcombatsimulator.com/upload/iblock/26f/Screen_180110_230203_00022.png"><img src="https://www.digitalcombatsimulator.com/upload/iblock/26f/Screen_180110_230203_00022.png"></a>
-    <figcaption>An F/A-18C ready to take off from a carrier</figcaption>
+    <a href="https://i.imgur.com/0vI60zu.jpg?1"><img src="https://i.imgur.com/0vI60zu.jpg?1"></a>
+    <figcaption>An F/A-18C preparing to land on a carrier</figcaption>
 </figure>
 
 ### Free Content
@@ -31,11 +31,12 @@ Besides Eagle Dynamics (the makers of DCS), there are third party developers tha
 produce modules for DCS.
 
 <figure class="">
-    <a href="https://www.digitalcombatsimulator.com/upload/iblock/05a/Screen_180412_150408_00063.jpg"><img src="https://www.digitalcombatsimulator.com/upload/iblock/05a/Screen_180412_150408_00063.jpg"></a>
-    <figcaption>A screenshot of the Persian Gulf map</figcaption>
+    <a href="https://stormbirds.files.wordpress.com/2018/05/dubai-city2.jpg"><img src="https://stormbirds.files.wordpress.com/2018/05/dubai-city2.jpg"></a>
+    <figcaption>Dubai in the Persian Gulf map</figcaption>
 </figure>
 
 ### Links
 
 For more details visit the [DCS World site](https://www.digitalcombatsimulator.com/)
+
 Additional [DCS Screenshots](https://www.digitalcombatsimulator.com/en/downloads/screenshots/)

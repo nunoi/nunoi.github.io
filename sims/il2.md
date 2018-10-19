@@ -34,3 +34,5 @@ in early access.
 ### Links
 
 For more details visit the [IL-2 site](https://il2sturmovik.com/)
+
+Keep up to date with IL-2 news with [Stormbirds](https://stormbirds.blog/)
