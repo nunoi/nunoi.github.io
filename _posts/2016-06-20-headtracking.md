@@ -43,9 +43,13 @@ If you have
 * basic electrical knowledge (DC, low current)
 * soldering iron
 * webcam
-you can choose the DIY route if you do not wish to spend much money. For optimal results you'll want to use IR LEDs and a webcam with its IR filter removed. My current webcam was the cheapest I could find at the time, and I find it works perfectly fine.
+you can choose the DIY route if you do not wish to spend much money. My current webcam was the cheapest I could find at the time, and I find it works perfectly fine.
+
+For optimal results you'll want to use IR LEDs and a webcam with its IR filter removed. You'll probably also need to add something that blocks visible light, in my case I used old photo negatives. 
 
 If you do not already own a webcam, then it is probably easier and cheaper to just buy one of the ready-made solutions below.
+
+After having the hardware working, it is necessary to setup the software to your liking. This can be a morose process of trial and error. There are guides and videos about setting up opentrack, they can help you speed up the process.
 
 #### Trackhat
 
