@@ -18,3 +18,5 @@ Very simple [wind heading calculator](https://nunoi.github.io/il2/il2bcalc.html)
     <a href="https://i.imgur.com/GLtninj.png"><img src="https://i.imgur.com/GLtninj.png"></a>
     <figcaption>Small screen mode</figcaption>
 </figure>
+
+It is [hosted at GitHub](https://github.com/nunoi/il2bcalc), so anyone can fork it and change it to their liking.
