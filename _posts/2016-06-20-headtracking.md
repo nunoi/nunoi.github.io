@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DIY head tracking"
+title:  "DIY Head Tracking"
 date:   2016-06-20
 excerpt: "DIY head tracking for use in simulators"
 project: true
