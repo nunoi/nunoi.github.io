@@ -2,6 +2,7 @@
 layout: page
 title: Assetto Corsa
 feature: https://i.imgur.com/1R2PsSh.jpg
+tags: [simulation, assetto corsa, ac]
 ---
 
 Assetto Corsa is one of the best racing simulators. Good physics,
