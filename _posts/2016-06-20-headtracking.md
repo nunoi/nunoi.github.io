@@ -72,3 +72,7 @@ Gyroscopes are another solution for head tracking with the advantage that they d
 
 #### Old mobile phone
 If you have an old android mobile phone you can use it with [opentrack](https://github.com/opentrack/opentrack/wiki/Smartphone-Headtracking) to provide you with webcam-less head tracking. You'll just need to install an android program that captures your movements using the phone's sensors and sends them to opentrack on your PC.
+
+## Additional resources
+
+You can find an excellent overview of headtracking and how to setup opentrack in the [IL-2 forums](https://forum.il2sturmovik.com/topic/34403-a-complete-guide-to-set-up-head-tracking-opentrack/)
