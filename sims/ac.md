@@ -18,11 +18,7 @@ a long time.
     <figcaption>Left: Nissan GT-R at Nordschleife. Right: Detail of Porsche 919</figcaption>
 </figure>
 
-It is currently finished, its developer (Kunos) has stated that they
-will not release new content for AC. They are currently working on 
-Assetto Corsa Competizione which uses a new graphics engine and features
-day-night cycles, rain and other improvements. Unfortunately it only
-features cars and a few tracks from Blancpain GT Series.
+It is currently finished, its developer (Kunos) has stated that they will not release new content for AC. They are currently working on  Assetto Corsa Competizione which uses a new graphics engine and features day-night cycles, rain and other improvements. Unfortunately it only features cars and a few tracks from Blancpain GT Series and its moddability is currently in doubt.
 
 <figure class="half">
     <a href="https://i.imgur.com/t9GqJjl.jpg"><img src="https://i.imgur.com/t9GqJjl.jpg"></a>
@@ -30,9 +26,7 @@ features cars and a few tracks from Blancpain GT Series.
     <figcaption>Left: 1.200bhp Porsche 917/30 at Monza. Right: Lotus 49 at Monza oval </figcaption>
 </figure>
 
-The original AC is still a very good choice for anyone wanting to
-play racing simulators. Also, it has a low(ish) price and is often
-on sale. 
+The original AC is still a very good choice for anyone wanting to play racing simulators. Also, it has a low(ish) price and is often on sale. 
 
 ## Multiplayer
 
