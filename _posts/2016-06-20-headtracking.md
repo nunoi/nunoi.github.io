@@ -4,7 +4,7 @@ title:  "DIY head tracking"
 date:   2016-06-20
 excerpt: "DIY head tracking for use in simulators"
 project: true
-tags: [head tracking, tracking, hardware, software]
+tags: [head tracking, tracking, hardware, software, dcs, il2]
 ---
 
 This is my ugly but functional trackhat for use with a head tracking software such as [opentrack](https://github.com/opentrack/opentrack). For this type of solution (infra-red LED) a webcam is also required.
