@@ -24,7 +24,7 @@ Assetto Corsa Competizione which uses a new graphics engine and features
 day-night cycles, rain and other improvements. Unfortunately it only
 features cars and a few tracks from Blancpain GT Series.
 
-<figure class="">
+<figure class="half">
     <a href="https://i.imgur.com/t9GqJjl.jpg"><img src="https://i.imgur.com/t9GqJjl.jpg"></a>
     <a href="https://i.imgur.com/bDjw8a2.jpg"><img src="https://i.imgur.com/bDjw8a2.jpg"></a>    
     <figcaption>Left: 1.200bhp Porsche 917/30 at Monza. Right: Lotus 49 at Monza oval </figcaption>
@@ -36,9 +36,9 @@ on sale.
 
 ## Multiplayer
 
-The multiplayer experience is good. While on ad-hoc races you can find the odd player who crashes into everyone, there is an active community that organizes events where everyone races in a serious fashion.
+The multiplayer experience is good. While on random ad-hoc races you can find the odd player who crashes into everyone, there is an active community that organizes events where everyone races in a serious fashion.
 
-<figure class="">
+<figure class="half">
     <a href="https://i.imgur.com/xSHDSMn.jpg"><img src="https://i.imgur.com/xSHDSMn.jpg"></a>
     <a href="https://i.imgur.com/DLiLUZG.jpg"><img src="https://i.imgur.com/DLiLUZG.jpg"></a>    
     <figcaption>A multiplayer GT3 league event at Red Bull Ring</figcaption>
