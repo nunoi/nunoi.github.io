@@ -7,7 +7,7 @@ project: true
 tags: [il2, software]
 ---
 
-Very simple [wind heading calculator](https://nunoi.github.io/il2/il2bcalc.html) for use in bombsight mode. It is a simple web page with javascript, so it runs well on mobile phones or tablets (at least android).
+Very simple [wind heading calculator](https://nunoi.github.io/il2bcalc/) for use in bombsight mode. It is a simple web page with javascript, so it runs well on mobile phones or tablets (at least android).
 
 <figure class="">
     <a href="https://i.imgur.com/WKoGRlw.png"><img src="https://i.imgur.com/WKoGRlw.png"></a>
