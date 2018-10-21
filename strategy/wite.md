@@ -9,19 +9,23 @@ War In The East is a turn-based strategy game that encompasses the whole WW2 eas
 
 The game includes smaller scenarios, ideal for beginners. Tutorials and videos can be found online that will help anyone to learn the game.
 
-Some screenshots from the Decision in the Ukraine scenario that takes place in 1943 and has the Soviets trying to recover that region.
+Some screenshots from the Decision in the Ukraine scenario that takes place in 1943 and has the Soviets trying to recover that region with overwhelming numerical superiority.
 
 <figure class="half">
     <a href="https://i.imgur.com/o6gjbuL.jpg"><img src="https://i.imgur.com/o6gjbuL.jpg"></a>
     <a href="https://i.imgur.com/aTCagcF.jpg"><img src="https://i.imgur.com/aTCagcF.jpg"></a>
-    <figcaption>Left: soviets make some breakthroughs Right: some german units are encircled</figcaption>
 </figure>
+
+Shortly after the scenario starts, the soviets have made some breakthroughs and successfully manage encircling a big group of german units.
 
 <figure class="half">
     <a href="https://i.imgur.com/Xu6oOI4.jpg"><img src="https://i.imgur.com/Xu6oOI4.jpg"></a>
     <a href="https://i.imgur.com/UVyZPbd.jpg"><img src="https://i.imgur.com/UVyZPbd.jpg"></a>
-    <figcaption>Left: german units in the pocket are lost Right: after managing to stabilize the front, germans stop soviet advance</figcaption>
 </figure>
+
+Despite some efforts at breaking the encirclement, german units in the pocket are doomed. On the other hand, the germans have also managed to encircle a large group of soviet forces.
+
+After managing to stabilize the front, the germans successfully stop soviet advance in the Ukraine and win this scenario.
 
 ## Links
 
