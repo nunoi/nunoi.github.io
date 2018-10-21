@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Battletech
+title: War In The East
 feature: 
 tags: [strategy, turn based, hex, eastern front]
 ---
