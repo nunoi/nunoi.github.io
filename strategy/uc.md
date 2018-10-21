@@ -11,7 +11,7 @@ Unity of Command is a rare gem in the strategy genre. An indie title which combi
 
 Turn-based, operational level wargame, played in hex maps. Supply is just as important as unit maneuvering. Sometimes you will need to grind down the enemy, but if you find a way to cut his supply you'll have a much easier task. Unfortunately the AI also knows this all too well.
 
-<figure class="half">
+<figure class="">
     <a href="https://i.imgur.com/9Kd7zle.jpg"><img src="https://i.imgur.com/9Kd7zle.jpg"></a>
 </figure>
 
