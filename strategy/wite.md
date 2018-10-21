@@ -9,7 +9,7 @@ War In The East is a turn-based strategy game that encompasses the whole WW2 eas
 
 The game includes smaller scenarios, ideal for beginners. Tutorials and videos can be found online that will help anyone to learn the game.
 
-Some screenshots from the Decision in the Ukraine scenario that takes place in 1943 and has the Soviets trying to recover that region with overwhelming numerical superiority.
+Below are some screenshots from the Decision in the Ukraine scenario. This scenario is a mid-sized scenario that takes place in 1943 and has the Soviets trying to recover that region with overwhelming numerical superiority.
 
 <figure class="half">
     <a href="https://i.imgur.com/o6gjbuL.jpg"><img src="https://i.imgur.com/o6gjbuL.jpg"></a>
