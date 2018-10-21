@@ -10,7 +10,7 @@ rFactor 2 is probably the most advanced and realistic racing simulator. It featu
 While it may not have the best graphics, the driving experience is, in my humble opinion, the best out there.
 
 <figure class="">
-    <a href="https://media.giphy.com/media/L0NCIEUIE7L1rYDnLM/giphy.gif"><img src="https://media.giphy.com/media/L0NCIEUIE7L1rYDnLM/giphy.gif"></a>
+    <a href="https://youtu.be/nC9I6whTL_s?t=53"><img src="https://media.giphy.com/media/L0NCIEUIE7L1rYDnLM/giphy.gif"></a>
     <figcaption>Tyre deformation in action</figcaption>
 </figure>
 
