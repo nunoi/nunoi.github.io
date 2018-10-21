@@ -5,7 +5,7 @@ feature:
 tags: [strategy, real time, ww2, eastern front]
 ---
 
-Graviteam Tactics series are a real-time realistic wargame featuring mostly WW2 eastern front scenarios. Developed by a small Ukrainian studio, these are amazing games that despite some shortcomings deserve far more recognition and success than they have today.
+Graviteam Tactics series are a real-time realistic wargame featuring mostly WW2 eastern front scenarios. Developed by a small Ukrainian studio, these are amazing games that despite some shortcomings deserve far more success and recognition than they have today.
 
 In addition to the real-time combat layer, the game includes a strategic layer where you can move around units in the large map. When your units meet enemy units you then go to the tactical combat RTS layer.
 
@@ -35,7 +35,7 @@ GT:MF or Mius for short, is a development of GT:OS with better UI, bigger maps a
     <figcaption>Left: Strategic map layer. Right: Chaos and mayhem. Tracers and explosions all over the place</figcaption>
 </figure>
 <figure class="">
-    <a href="https://i.imgur.com/rmyKyfF.jpg"><img src="https://i.imgur.com/rmyKyfF.jpg"></a>
+    <a href="https://i.imgur.com/JS8dU2V.jpg"><img src="https://i.imgur.com/JS8dU2V.jpg"></a>
     <figcaption>Enemy artillery raining in the front lines while Marder tank destroyers snipe soviet tanks at extremely long range</figcaption>
 </figure>
 <figure class="">
