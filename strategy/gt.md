@@ -2,7 +2,7 @@
 layout: page
 title: Graviteam Tactics
 feature: 
-tags: [strategy, real time, ww2, eastern front]
+tags: [strategy, real time, ww2, eastern front, tunisia]
 ---
 
 Graviteam Tactics series are a real-time realistic wargame featuring mostly WW2 eastern front scenarios. Developed by a small Ukrainian studio, these are amazing games that despite some shortcomings deserve far more success and recognition than they have today.
@@ -16,6 +16,8 @@ Although the game can look complicated at first, starting to play it is not that
 ## The Series
 
 Graviteam Tactics series includes three different games, each with their set of DLC, although GT:OS and GT Mius Front share a couple similar DLCs that have been ported from OS to Mius.
+
+While GT series focuses on the eastern front, both GT:OS and GT:MF have a few DLCs that take place in more recent settings in Afghanistan (1979), China (1969)  or Angola (1988). Additionally Tank Warfare is entirely dedicated to the Tunisian Campaign in WW2.
 
 ### Operation Star
 
@@ -38,7 +40,7 @@ GT:MF or Mius for short, is a development of GT:OS with better UI, bigger maps a
 </figure>
 <figure class="">
     <a href="https://i.imgur.com/JS8dU2V.jpg"><img src="https://i.imgur.com/JS8dU2V.jpg"></a>
-    <figcaption>Enemy artillery hitting the front lines while Marder tank destroyers snipe soviet tanks at extremele ranges</figcaption>
+    <figcaption>Enemy artillery hitting the front lines while Marder tank destroyers snipe soviet tanks at extreme ranges</figcaption>
 </figure>
 <figure class="">
     <a href="https://i.imgur.com/NdAOHbZ.jpg"><img src="https://i.imgur.com/NdAOHbZ.jpg"></a>
