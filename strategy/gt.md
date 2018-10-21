@@ -20,8 +20,8 @@ Graviteam Tactics series includes three different games, each with their set of 
 The original GT:OS is based on an older engine and has largely been superseeded by GT:Mius Front. Some content, but not all, from the original GT:OS has been made available in Mius Front. If you find this in a good sale and like the genre, its a good buy.
 
 <figure class="half">
-    <a href="https://steamcdn-a.akamaihd.net/steam/apps/275290/ss_ed5ba23d15f89947560cf04f3fba1f2d33ef95c2.1920x1080.jpg?t=1522626211"><img src="https://steamcdn-a.akamaihd.net/steam/apps/275290/ss_ed5ba23d15f89947560cf04f3fba1f2d33ef95c2.600x338.jpg?t=1522626211"></a>
-    <a href="https://steamcdn-a.akamaihd.net/steam/apps/275290/ss_3e421326b2360033e48638a1285dbf15a1307a68.1920x1080.jpg?t=1522626211"><img src="https://steamcdn-a.akamaihd.net/steam/apps/275290/ss_3e421326b2360033e48638a1285dbf15a1307a68.600x338.jpg?t=1522626211"></a>
+    <a href="https://i.imgur.com/j0v9DIh.jpg"><img src="https://i.imgur.com/j0v9DIh.jpg"></a>
+    <a href="https://i.imgur.com/usIWr72.jpg"><img src="https://i.imgur.com/usIWr72.jpg"></a>
     <figcaption>Left: An anti-tank team. Right: Burning tanks</figcaption>
 </figure>
 
@@ -48,9 +48,9 @@ GT:MF or Mius for short, is a development of GT:OS with better UI, bigger maps a
 Tank Warfare is not published by Graviteam, but it is developed by them and the engine is mostly the same as Mius Front. It focuses on the WW2 Tunisian Campaign in North Africa.
 
 <figure class="half">
-    <a href="https://steamcdn-a.akamaihd.net/steam/apps/549080/ss_991820220f4a8d127abc946d87f56a347c014d9b.1920x1080.jpg?t=1538405608"><img src="https://steamcdn-a.akamaihd.net/steam/apps/549080/ss_991820220f4a8d127abc946d87f56a347c014d9b.1920x1080.jpg?t=1538405608"></a>
-    <a href="https://steamcdn-a.akamaihd.net/steam/apps/549080/ss_9d597478367f0eb1f821a43ed000cc21860b1b31.1920x1080.jpg?t=1538405608"><img src="https://steamcdn-a.akamaihd.net/steam/apps/549080/ss_9d597478367f0eb1f821a43ed000cc21860b1b31.1920x1080.jpg?t=1538405608"></a>
-    <figcaption>Left: Strategic map layer. Right: Battle ongoing</figcaption>
+    <a href="https://i.imgur.com/gw7KD8p.jpg"><img src="https://i.imgur.com/gw7KD8p.jpg"></a>
+    <a href="https://i.imgur.com/6nQMeZK.jpg"><img src="https://i.imgur.com/6nQMeZK.jpg"></a>
+    <figcaption>American vehicles in Tunisia</figcaption>
 </figure>
 
 ## Links
