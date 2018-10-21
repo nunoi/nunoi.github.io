@@ -9,7 +9,9 @@ Graviteam Tactics series are a real-time realistic wargame featuring mostly WW2 
 
 In addition to the real-time combat layer, the game includes a strategic layer where you can move around units in the large map. When your units meet enemy units you then go to the tactical combat RTS layer.
 
-While this is an RTS game, this is far from a click fest. In reality, when you give some orders to an unit, the unit will not necessarily follow them blindly on the spot. This is a game that rewards careful planning unlike most other RTS games.
+While this is an RTS game, it is far from a click fest. In reality, when you give orders to an unit, the unit will not necessarily follow them blindly on the spot. It may not even get them if it is too far away from its commanding unit. This is a game that rewards careful planning unlike most other RTS games.
+
+Although the game can look complicated at first, starting to play it is not that difficult. Mastering it, however, is an entirely different matter.
 
 ## The Series
 
@@ -36,11 +38,11 @@ GT:MF or Mius for short, is a development of GT:OS with better UI, bigger maps a
 </figure>
 <figure class="">
     <a href="https://i.imgur.com/JS8dU2V.jpg"><img src="https://i.imgur.com/JS8dU2V.jpg"></a>
-    <figcaption>Enemy artillery raining in the front lines while Marder tank destroyers snipe soviet tanks at extremely long range</figcaption>
+    <figcaption>Enemy artillery hitting the front lines while Marder tank destroyers snipe soviet tanks at extremele ranges</figcaption>
 </figure>
 <figure class="">
     <a href="https://i.imgur.com/NdAOHbZ.jpg"><img src="https://i.imgur.com/NdAOHbZ.jpg"></a>
-    <figcaption>Exploring the battlefield after the battle you can see each and every hitt any vehicle suffered</figcaption>
+    <figcaption>Exploring the battlefield after the battle you can see each and every hit any vehicle suffered</figcaption>
 </figure>
 
 ### Tank Warfare
@@ -56,3 +58,5 @@ Tank Warfare is not published by Graviteam, but it is developed by them and the 
 ## Links
 
 [Official site](http://graviteam.com/)
+
+[Graviteam Tactics Boot Camp](https://www.youtube.com/playlist?annotation_id=annotation_2578436857&feature=iv&list=PLx6N3LVwgba0n_wweLFzT_r0-cKi_LIhC&src_vid=E6MWbXT4dlw) by Arch Warhammer. A must for any beginner/intermediate player. Although it pertains to the original GT:OS, almost everything is applicable in the newer games.
