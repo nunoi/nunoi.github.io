@@ -59,4 +59,4 @@ Tank Warfare is not published by Graviteam, but it is developed by them and the 
 
 [Official site](http://graviteam.com/)
 
-[Graviteam Tactics Boot Camp](https://www.youtube.com/playlist?annotation_id=annotation_2578436857&feature=iv&list=PLx6N3LVwgba0n_wweLFzT_r0-cKi_LIhC&src_vid=E6MWbXT4dlw) by Arch Warhammer. A must for any beginner/intermediate player. Although it pertains to the original GT:OS, almost everything is applicable in the newer games.
+[Graviteam Tactics Boot Camp](https://www.youtube.com/playlist?annotation_id=annotation_2578436857&feature=iv&list=PLx6N3LVwgba0n_wweLFzT_r0-cKi_LIhC&src_vid=E6MWbXT4dlw) tutorial videos by Arch Warhammer. A must for any beginner/intermediate player. Although it pertains to the original GT:OS, almost everything is applicable in the newer games.
