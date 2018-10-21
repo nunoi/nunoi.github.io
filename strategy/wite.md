@@ -36,3 +36,5 @@ After managing to stabilize the front, the germans successfully stop soviet adva
 ## Links
 
 [Official site](http://www.matrixgames.com/products/372/details/Gary.Grigsbys.War.in.the.East:.The.German-Soviet.War.1941-1945)
+
+XTRG's WitE [Dies Irae playlist](https://www.youtube.com/playlist?list=PLbSx_b5pOYvGY05onlVWfbBLZaxD4WZBq)
