@@ -25,7 +25,7 @@ The base game places you at the command of the german forces in the 1942/43 Stal
 
 ### Red Turn
 
-Red Turn expansion puts you at the front of the Soviet forces trying to liberate Stalingrad. If you succeed you can liberate all of the motherland and attack Berlin, spanning from 43-45.
+Red Turn expansion puts you at the front of the Soviet forces trying to liberate Stalingrad. If you succeed you can liberate all of the motherland and attack Berlin, spanning from 1943-45.
 
 ### Black Turn
 
