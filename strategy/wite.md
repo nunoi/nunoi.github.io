@@ -11,19 +11,25 @@ The game includes smaller scenarios, ideal for beginners. Tutorials and videos c
 
 Below are some screenshots from the Decision in the Ukraine scenario. This scenario is a mid-sized scenario that takes place in 1943 and has the Soviets trying to recover that region with overwhelming numerical superiority.
 
-<figure class="half">
+<figure class="">
     <a href="https://i.imgur.com/o6gjbuL.jpg"><img src="https://i.imgur.com/o6gjbuL.jpg"></a>
+</figure>
+
+<figure class="">
     <a href="https://i.imgur.com/aTCagcF.jpg"><img src="https://i.imgur.com/aTCagcF.jpg"></a>
 </figure>
 
 Shortly after the scenario starts, the soviets have made some breakthroughs and successfully manage encircling a big group of german units.
 
-<figure class="half">
+<figure class="">
     <a href="https://i.imgur.com/Xu6oOI4.jpg"><img src="https://i.imgur.com/Xu6oOI4.jpg"></a>
-    <a href="https://i.imgur.com/UVyZPbd.jpg"><img src="https://i.imgur.com/UVyZPbd.jpg"></a>
 </figure>
 
 Despite some efforts at breaking the encirclement, german units in the pocket are doomed. On the other hand, the germans have also managed to encircle a large group of soviet forces.
+
+<figure class="">
+    <a href="https://i.imgur.com/UVyZPbd.jpg"><img src="https://i.imgur.com/UVyZPbd.jpg"></a>
+</figure>
 
 After managing to stabilize the front, the germans successfully stop soviet advance in the Ukraine and win this scenario.
 
