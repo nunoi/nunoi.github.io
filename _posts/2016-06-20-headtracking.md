@@ -43,6 +43,7 @@ If you have
 * basic electrical knowledge (DC, low current)
 * soldering iron
 * webcam
+
 you can choose the DIY route if you do not wish to spend much money. My current webcam was the cheapest I could find at the time, and I find it works perfectly fine.
 
 For optimal results you'll want to use IR LEDs and a webcam with its IR filter removed. You'll probably also need to add something that blocks visible light, in my case I used old photo negatives. 
