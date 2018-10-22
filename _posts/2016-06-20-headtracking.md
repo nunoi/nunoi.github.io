@@ -75,6 +75,6 @@ If you have an old android mobile phone you can use it with [opentrack](https://
 
 ## Additional resources
 
-[opentrack software](https://github.com/opentrack/opentrack)
+You'll probably need the [opentrack software](https://github.com/opentrack/opentrack)
 
 You can find an excellent overview of headtracking and how to setup opentrack in the [IL-2 forums](https://forum.il2sturmovik.com/topic/34403-a-complete-guide-to-set-up-head-tracking-opentrack/)
