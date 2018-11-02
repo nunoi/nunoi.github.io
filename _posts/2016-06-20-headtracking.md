@@ -43,6 +43,7 @@ If you have
 * basic electrical knowledge (DC, low current)
 * soldering iron
 * webcam
+
 you can choose the DIY route if you do not wish to spend much money. My current webcam was the cheapest I could find at the time, and I find it works perfectly fine.
 
 For optimal results you'll want to use IR LEDs and a webcam with its IR filter removed. You'll probably also need to add something that blocks visible light, in my case I used old photo negatives. 
@@ -74,5 +75,7 @@ Gyroscopes are another solution for head tracking with the advantage that they d
 If you have an old android mobile phone you can use it with [opentrack](https://github.com/opentrack/opentrack/wiki/Smartphone-Headtracking) to provide you with webcam-less head tracking. You'll just need to install an android program that captures your movements using the phone's sensors and sends them to opentrack on your PC.
 
 ## Additional resources
+
+You'll probably need the [opentrack software](https://github.com/opentrack/opentrack)
 
 You can find an excellent overview of headtracking and how to setup opentrack in the [IL-2 forums](https://forum.il2sturmovik.com/topic/34403-a-complete-guide-to-set-up-head-tracking-opentrack/)
