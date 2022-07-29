@@ -1,0 +1,232 @@
+:root {
+    --red-salsa: #f94144ff;
+    --orange-red: #f3722cff;
+    --yellow-orange-color-wheel: #f8961eff;
+    --mango-tango: #f9844aff;
+    --maize-crayola: #f9c74fff;
+    --pistachio: #90be6dff;
+    --jungle-green: #43aa8bff;
+    --steel-teal: #4d908eff;
+    --queen-blue: #577590ff;
+    --celadon-blue: #277da1ff;
+}
+
+body {
+    font-family: monospace;
+    font-size: larger;
+    text-align: center;
+    background-color: var(--celadon-blue);
+}
+
+input {
+    padding: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid #eee;
+}
+
+input:hover {
+    box-shadow: 0px 0px 5px #6192D1;
+    -webkit-box-shadow: 0px 0px 5px #6192D1;
+    -webkit-padding: 3px;
+    padding: 4px;
+    border-width: 2px;
+    border-color: transparent;
+    border-style: inset;
+
+    outline: 0;
+}
+
+input:focus {
+    box-shadow: 0px 0px 5px #6192D1;
+    -webkit-box-shadow: 0px 0px 5px #6192D1;
+    -webkit-padding: 3px;
+    padding: 4px;
+    border-width: 2px;
+    border-color: transparent;
+    border-style: inset;
+
+    outline: 0;
+}
+
+.base {
+    margin: auto;
+    width: 80%;
+    border-radius: 4px;
+    background-color: var(--steel-teal);
+    padding: 0px 0px 5px 0px;
+}
+
+.canvas {
+    margin: 20px 20px 20px 20px;
+    border-radius: 4px;
+    background-color: var(--maize-crayola);
+    padding: 10px 10px 10px 10px;
+}
+
+.canvas-input {
+    display: flex;
+    padding: 4px 0px 4px 0px;
+}
+
+.canvas-output {
+    display: flex;
+    margin-top: 10px;
+    justify-content: right;
+    background-color: var(--pistachio);
+    border-radius: 4px;
+    width: 100%;
+}
+
+.input-left {
+    flex: 1 1 auto;
+    background-color: var(--mango-tango);
+    border-radius: 4px;
+    text-align: right;
+    padding: 5px 5px 5px 5px;
+}
+
+.input-right {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas-bitwise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 0px 5px;
+}
+
+.input-bitwise {
+    display: flex;
+    column-gap: 5em;
+    width: 70%;
+}
+
+.digits-help {
+    display: flex;
+    justify-content: right;
+    font-size: medium;
+    padding: 5px 5px 5px 5px;
+}
+
+.input-field {
+    display: flex;
+    justify-content: right;
+    font-size: medium;
+    padding: 5px 5px 5px 5px;
+}
+
+.num-input {
+    background-color: #eeffee;
+    width: 100%;
+    text-align: right;
+}
+
+.display-result {
+    width: 100%;
+}
+
+.result {
+    letter-spacing: 1rem;
+}
+
+.results-table {
+    border: 0px solid;
+    width: auto;
+    display: inline-table;
+}
+
+.results-indices {
+    color: darkslategray;
+    font-size: 0.65rem;
+}
+
+.output-results {
+    padding: 5px 5px 5px 5px;
+}
+
+.output-buttons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.button {
+    width: 80%;
+    background-color: var(--red-salsa);
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: white;
+    color: var(--red-salsa);
+    cursor: pointer;
+}
+
+.button.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.button-util {
+    width: 2em;
+    background-color: var(--red-salsa);
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.button-util:hover {
+    background-color: white;
+    color: var(--red-salsa);
+    cursor: pointer;
+}
+
+.button-util.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */
+    /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: var(--yellow-orange-color-wheel);
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    top: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
