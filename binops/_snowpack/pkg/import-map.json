@@ -1,6 +1,0 @@
-{
-  "imports": {
-    "bigint-crypto-utils": "./bigint-crypto-utils.js",
-    "js-combinatorics": "./js-combinatorics.js"
-  }
-}
