@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<script type="module" src="dist/binops.js"></script>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Binary conversions and operations</title>
+</head>
+
+<body>
+  <div class="dropdown">
+    <button class="dropbtn">Select Theme</button>
+    <div class="dropdown-content">
+      <a href="#" onclick="rainbowTheme()">Rainbow Theme</a>
+      <a href="#" onclick="darkTheme()">Dark Theme</a>
+      <a href="#" onclick="lightTheme()">Light Theme</a>
+      <a href="#" onclick="bluesTheme()">Blues Theme</a>
+      <a href="#" onclick="pastelTheme()">Pastel Theme</a>
+      <a href="#" onclick="tealTheme()">Teal Theme</a>
+    </div>
+  </div>
+  <script>
+    function darkTheme() {
+      var element = document.body;
+      removeAll();
+      element.classList.toggle("dark-theme");
+    }
+    function lightTheme() {
+      var element = document.body;
+      removeAll();
+      element.classList.toggle("light-theme");
+    }
+    function rainbowTheme() {
+      var element = document.body;
+      removeAll();
+      element.classList.toggle("rainbow-theme");
+    }
+    function bluesTheme() {
+      var element = document.body;
+      removeAll();
+      element.classList.toggle("blues-theme");
+    }
+    function pastelTheme() {
+      var element = document.body;
+      removeAll();
+      element.classList.toggle("pastel-theme");
+    }
+    function tealTheme() {
+      var element = document.body;
+      removeAll();
+      element.classList.toggle("teal-theme");
+    }
+    function removeAll() {
+      var element = document.body;
+      element.classList.remove("dark-theme");
+      element.classList.remove("light-theme");
+      element.classList.remove("rainbow-theme");
+      element.classList.remove("blues-theme");
+      element.classList.remove("pastel-theme");
+      element.classList.remove("teal-theme");
+    }
+    rainbowTheme();
+  </script>
+  <h1>Binary Conversions and Operations</h1>
+  <div class="base">
+    <h2>Conversion</h2>
+    <div class="canvas">
+      <h3>Binary to Decimal</h3>
+      <div class="canvas-input">
+        <div class="input-left">
+          <div class="digits-help">
+            <div class="digits" id="res-digits-bin">1</div>
+            <div class="digits-text">&nbsp;bits</div>
+          </div>
+          <div class="input-field">
+            <input class="num-input" type="text" id="b2d-input">
+          </div>
+        </div>
+        <div class=" input-right">
+          <div id="bin2dec" class="button">Convert<br>to decimal</div>
+        </div>
+      </div>
+      <div class="canvas-output">
+        <div class="output-results" id="res-table-dec"></div>
+        <div class="output-buttons">
+          <div class="button-util">
+            <div class="tooltip" id="copy-bin2dec">
+              &nbsp;&dArr;&nbsp;<span class="tooltiptext">Copy result to<br>next input</span>
+            </div>
+          </div>
+          <div class="button-util" id="clipboard-bin2dec">
+            <div class="tooltip">
+              &nbsp;&#10697;&nbsp;<span class="tooltiptext">Copy result<br>to clipboard</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="canvas">
+      <h3>Decimal to Binary</h3>
+      <div class="canvas-input">
+        <div class="input-left">
+          <div class="digits-help">
+            <div class="digits" id="res-digits-dec">1</div>
+            <div class="digits-text">&nbsp;digits</div>
+          </div>
+          <div class="input-field">
+            <input class="num-input" type="text" id="d2b-input">
+          </div>
+        </div>
+        <div class="input-right">
+          <div id="dec2bin" class="button">Convert<br>to binary</div>
+        </div>
+      </div>
+      <div class="canvas-output">
+        <div class="output-results" id="res-table-bin"></div>
+        <div class="output-buttons">
+          <div class="button-util" id="copy-dec2bin">
+            <div class="tooltip">
+              &nbsp;&uArr;&nbsp;<span class="tooltiptext">Copy result to<br>previous input</span>
+            </div>
+          </div>
+          <div class="button-util" id="clipboard-dec2bin">
+            <div class="tooltip">
+              &nbsp;&#10697;&nbsp;<span class="tooltiptext">Copy result<br>to clipboard</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of conversion section -->
+
+  <div class="base">
+    <!-- Start of bitwise operations section -->
+    <h2>Bitwise Operations</h2>
+    <!-- unary operations section -->
+    <div class="canvas">
+      <h3>Bitwise Unary Operations</h3>
+      <div class="canvas-input">
+        <div class="input-left">
+          <div class="digits-help">
+            <div class="digits" id="res-digits-unary">1</div>
+            <div class="digits-text">&nbsp;bits</div>
+          </div>
+          <div class="input-field">
+            <input class="num-input" type="text" id="unary-input">
+          </div>
+        </div>
+      </div>
+      <div class="canvas-bitwise">
+        <div class="input-bitwise">
+          <div id="una-copy-from-d2b" class="button">Copy Dec2Bin</div>
+          <div id="op-sl" class="button">Shift Left</div>
+          <div id="op-sr" class="button">Shift Right</div>
+          <div id="op-not" class="button">Not</div>
+        </div>
+      </div>
+      <div class="canvas-output">
+        <div class="output-results" id="res-table-unary"></div>
+        <div class="output-buttons">
+          <div class="button-util" id="copy-unary">
+            <div class="tooltip">
+              &nbsp;&dArr;&nbsp;<span class="tooltiptext">Copy result to<br>next input</span>
+            </div>
+          </div>
+          <div class="button-util" id="clipboard-unary">
+            <div class="tooltip">
+              &nbsp;&#10697;&nbsp;<span class="tooltiptext">Copy result<br>to clipboard</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- binary operations section -->
+    <div class="canvas">
+      <h3>Bitwise Binary Operations</h3>
+      <div class="canvas-input">
+        <div class="input-left">
+          <div class="digits-help">
+            <div class="digits" id="res-digits-binary1">1</div>
+            <div class="digits-text">&nbsp;bits</div>
+          </div>
+          <div class="input-field">
+            <input class="num-input" type="text" id="binary-input1">
+          </div>
+        </div>
+      </div>
+      <div class="canvas-input">
+        <div class="input-left">
+          <div class="digits-help">
+            <div class="digits" id="res-digits-binary2">1</div>
+            <div class="digits-text">&nbsp;bits</div>
+          </div>
+          <div class="input-field">
+            <input class="num-input" type="text" id="binary-input2">
+          </div>
+        </div>
+      </div>
+      <div class="canvas-bitwise">
+        <div class="input-bitwise">
+          <div id="bin-copy-from-d2b" class="button">Copy Dec2Bin</div>
+          <div id="op-and" class="button">AND</div>
+          <div id="op-or" class="button">OR</div>
+          <div id="op-xor" class="button">XOR</div>
+          <div id="op-and-not" class="button">AND NOT</div>
+        </div>
+      </div>
+      <div class="canvas-output">
+        <div class="output-results" id="res-table-binary"></div>
+        <div class="output-buttons">
+          <div class="button-util" id="copy-binary">
+            <div class="tooltip">
+              &nbsp;&uArr;&nbsp;<span class="tooltiptext">Copy result to<br>previous input</span>
+            </div>
+          </div>
+          <div class="button-util" id="clipboard-binary">
+            <div class="tooltip">
+              &nbsp;&#10697;&nbsp;<span class="tooltiptext">Copy result<br>to clipboard</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of bitwise operations section -->
+
+  <div class="base">
+    <!-- Start of bitwise operations section -->
+    <h2>Miscellaneous Operations</h2>
+    <!-- unary operations section -->
+    <div class="canvas">
+      <h3>Random Number Generator</h3>
+      <div class="canvas-input">
+        <div class="input-left">
+          <div class="input-field-generator">
+            <div>
+              <div>Bits total</div>
+              <div><input class="num-input" type="number" id="generator-input" min="1" value="1"></div>
+            </div>
+            <div>
+              <div>Bits set to 1</div>
+              <div><input class="num-input" type="number" id="generator-bits1-input" min="0" value="0"></div>
+            </div>
+          </div>
+        </div>
+        <div class=" input-right">
+          <div id="generator" class="button">Generate</div>
+        </div>
+      </div>
+      <div class="canvas-output">
+        <div class="output-results" id="res-table-generator"></div>
+        <div class="output-buttons">
+          <!-- <div class="button-util" id="copy-generator">
+            <div class="tooltip">
+              &nbsp;&uArr;&nbsp;<span class="tooltiptext">Copy result to<br>previous input</span>
+            </div>
+          </div> -->
+          <div class="button-util" id="clipboard-generator">
+            <div class="tooltip">
+              &nbsp;&#10697;&nbsp;<span class="tooltiptext">Copy result<br>to clipboard</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

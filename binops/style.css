@@ -1,0 +1,435 @@
+:root {
+    --red-salsa: #f94144ff;
+    --orange-red: #f3722cff;
+    --yellow-orange-color-wheel: #f8961eff;
+    --mango-tango: #f9844aff;
+    --maize-crayola: #f9c74fff;
+    --pistachio: #90be6dff;
+    --jungle-green: #43aa8bff;
+    --steel-teal: #4d908eff;
+    --queen-blue: #577590ff;
+    --celadon-blue: #277da1ff;
+}
+
+:root {
+    --cultured: #f8f9faff;
+    --cultured-2: #e9ecefff;
+    --gainsboro: #dee2e6ff;
+    --light-gray: #ced4daff;
+    --cadet-blue-crayola: #adb5bdff;
+    --sonic-silver: #6c757dff;
+    --davys-grey: #495057ff;
+    --onyx: #343a40ff;
+    --eerie-black: #212529ff;
+}
+
+:root {
+    --purple: #7400b8ff;
+    --french-violet: #6930c3ff;
+    --slate-blue: #5e60ceff;
+    --united-nations-blue: #5390d9ff;
+    --carolina-blue: #4ea8deff;
+    --cyan-process: #48bfe3ff;
+    --sky-blue-crayola: #56cfe1ff;
+    --medium-turquoise: #64dfdfff;
+    --turquoise: #72efddff;
+    --aquamarine: #80ffdbff;
+}
+
+:root {
+    --lemon-chiffon: #fbf8ccff;
+    --champagne-pink: #fde4cfff;
+    --baby-pink: #ffcfd2ff;
+    --pink-lavender: #f1c0e8ff;
+    --mauve: #cfbaf0ff;
+    --baby-blue-eyes: #a3c4f3ff;
+    --non-photo-blue: #90dbf4ff;
+    --electric-blue: #8eecf5ff;
+    --magic-mint: #98f5e1ff;
+    --granny-smith-apple: #b9fbc0ff;
+}
+
+:root {
+    --rich-black-fogra-29: #001219ff;
+    --blue-sapphire: #005f73ff;
+    --viridian-green: #0a9396ff;
+    --middle-blue-green: #94d2bdff;
+    --medium-champagne: #e9d8a6ff;
+    --gamboge: #ee9b00ff;
+    --alloy-orange: #ca6702ff;
+    --rust: #bb3e03ff;
+    --rufous: #ae2012ff;
+    --ruby-red: #9b2226ff;
+}
+
+.rainbow-theme {
+    --my-color: black;
+    --my-body-background: var(--celadon-blue);
+    --my-base-background: var(--steel-teal);
+    --my-canvas-background: var(--maize-crayola);
+    --my-input-left: var(--mango-tango);
+    --my-canvas-output: var(--pistachio);
+    --my-button-background: var(--red-salsa);
+    --my-button-color: white;
+    --my-button-border: white;
+    --my-button-hover-background: white;
+    --my-tooltip-text-background: var(--yellow-orange-color-wheel);
+    --my-tooltip-text-color: black;
+    --my-result-indices: var(--celadon-blue);
+}
+
+.dark-theme {
+    --my-color: var(--cultured);
+    --my-body-background: var(--eerie-black);
+    --my-base-background: var(--onyx);
+    --my-canvas-background: var(--davys-grey);
+    --my-input-left: var(--sonic-silver);
+    --my-canvas-output: var(--onyx);
+    --my-button-background: var(--cultured);
+    --my-button-color: var(--eerie-black);
+    --my-button-border: var(--eerie-black);
+    --my-button-hover-background: var(--eerie-black);
+    --my-tooltip-text-background: var(--gainsboro);
+    --my-tooltip-text-color: var(--davys-grey);
+    --my-result-indices: var(--cadet-blue-crayola);
+}
+
+.light-theme {
+    --my-color: var(--eerie-black);
+    --my-body-background: var(--cultured);
+    --my-base-background: var(--cultured-2);
+    --my-canvas-background: var(--gainsboro);
+    --my-input-left: var(--light-gray);
+    --my-canvas-output: var(--cadet-blue-crayola);
+    --my-button-background: var(--sonic-silver);
+    --my-button-color: var(--cultured);
+    --my-button-border: var(--cultured);
+    --my-button-hover-background: var(--cultured);
+    --my-tooltip-text-background: var(--onyx);
+    --my-tooltip-text-color: var(--gainsboro);
+    --my-result-indices: var(--sonic-silver);
+}
+
+.blues-theme {
+    --my-color: var(--aquamarine);
+    --my-body-background: var(--purple);
+    --my-base-background: var(--french-violet);
+    --my-canvas-background: var(--slate-blue);
+    --my-input-left: var(--united-nations-blue);
+    --my-canvas-output: var(--carolina-blue);
+    --my-button-background: var(--aquamarine);
+    --my-button-color: var(--purple);
+    --my-button-border: var(--purple);
+    --my-button-hover-background: var(--purple);
+    --my-tooltip-text-background: var(--cyan-process);
+    --my-tooltip-text-color: var(--purple);
+    --my-result-indices: var(--slate-blue);
+}
+
+.pastel-theme {
+    --my-color: black;
+    --my-body-background: var(--mauve);
+    --my-base-background: var(--pink-lavender);
+    --my-canvas-background: var(--baby-pink);
+    --my-input-left: var(--champagne-pink);
+    --my-canvas-output: var(--lemon-chiffon);
+    --my-button-background: var(--baby-blue-eyes);
+    --my-button-color: var(--lemon-chiffon);
+    --my-button-border: var(--lemon-chiffon);
+    --my-button-hover-background: var(--lemon-chiffon);
+    --my-tooltip-text-background: var(--non-photo-blue);
+    --my-tooltip-text-color: var(--lemon-chiffon);
+    --my-result-indices: var(--baby-blue-eyes);
+}
+
+.teal-theme {
+    --my-color: var(--rich-black-fogra-29);
+    --my-body-background: var(--ruby-red);
+    --my-base-background: var(--rust);
+    --my-canvas-background: var(--alloy-orange);
+    --my-input-left: var(--gamboge);
+    --my-canvas-output: var(--viridian-green);
+    --my-button-background: var(--medium-champagne);
+    --my-button-color: var(--blue-sapphire);
+    --my-button-border: var(--blue-sapphire);
+    --my-button-hover-background: var(--blue-sapphire);
+    --my-tooltip-text-background: var(--middle-blue-green);
+    --my-tooltip-text-color: var(--ruby-red);
+    --my-result-indices: var(--blue-sapphire);
+}
+
+body {
+    font-family: monospace;
+    font-size: larger;
+    text-align: center;
+    background-color: var(--my-body-background);
+    color: var(--my-color);
+}
+
+input {
+    padding: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid #fff;
+}
+
+input:hover {
+    box-shadow: 0px 0px 5px #6192D1;
+    -webkit-box-shadow: 0px 0px 5px #6192D1;
+    -webkit-padding: 3px;
+    padding: 4px;
+    border-width: 2px;
+    border-color: transparent;
+    border-style: inset;
+    outline: 0;
+}
+
+input:focus {
+    box-shadow: 0px 0px 5px #6192D1;
+    -webkit-box-shadow: 0px 0px 5px #6192D1;
+    -webkit-padding: 3px;
+    padding: 4px;
+    border-width: 2px;
+    border-color: transparent;
+    border-style: inset;
+
+    outline: 0;
+}
+
+.base {
+    margin: auto;
+    width: 80%;
+    border-radius: 4px;
+    background-color: var(--my-base-background);
+    padding: 0px 0px 5px 0px;
+}
+
+.canvas {
+    margin: 20px 20px 20px 20px;
+    border-radius: 4px;
+    background-color: var(--my-canvas-background);
+    padding: 10px 10px 10px 10px;
+}
+
+.canvas-input {
+    display: flex;
+    padding: 4px 0px 4px 0px;
+}
+
+.canvas-output {
+    display: flex;
+    margin-top: 10px;
+    justify-content: right;
+    background-color: var(--my-canvas-output);
+    border-radius: 4px;
+    width: 100%;
+}
+
+.input-left {
+    flex: 1 1 auto;
+    background-color: var(--my-input-left);
+    border-radius: 4px;
+    text-align: right;
+    padding: 5px 5px 5px 5px;
+}
+
+.input-right {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas-bitwise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 0px 5px;
+}
+
+.input-bitwise {
+    display: flex;
+    column-gap: 5em;
+    width: 70%;
+}
+
+.digits-help {
+    display: flex;
+    justify-content: right;
+    font-size: medium;
+    padding: 5px 5px 5px 5px;
+}
+
+.input-field {
+    display: flex;
+    justify-content: right;
+    font-size: medium;
+    padding: 5px 5px 5px 5px;
+}
+
+.input-field-generator {
+    display: flex;
+    justify-content: center;
+    column-gap: 5em;
+}
+
+.num-input {
+    width: 100%;
+    text-align: right;
+}
+
+.display-result {
+    width: 100%;
+}
+
+.result {
+    letter-spacing: 1rem;
+}
+
+.results-table {
+    border: 0px solid;
+    width: auto;
+    display: inline-table;
+}
+
+.results-indices {
+    color: var(--my-result-indices);
+    font-size: 0.65rem;
+}
+
+.output-results {
+    padding: 5px 5px 5px 5px;
+}
+
+.output-buttons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.button {
+    width: 80%;
+    background-color: var(--my-button-background);
+    color: var(--my-button-color);
+    border: 2px solid var(--my-button-border);
+    border-radius: 4px;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: var(--my-button-hover-background);
+    color: var(--my-button-background);
+    cursor: pointer;
+}
+
+.button.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.button-util {
+    width: 2em;
+    background-color: var(--my-button-background);
+    color: var(--my-button-border);
+    border: 2px solid var(--my-button-border);
+    border-radius: 4px;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-util:hover {
+    background-color: var(--my-button-hover-background);
+    color: var(--my-button-background);
+    cursor: pointer;
+}
+
+.button-util.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: var(--my-tooltip-text-background);
+    color: var(--my-tooltip-text-color);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    top: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.collapsible {
+    cursor: pointer;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: var(--my-button-background);
+    color: var(--my-button-color);
+    padding: 6px;
+    font-size: small;
+    font-family: monospace;
+    border: none;
+    border: 1px solid var(--my-button-border);
+    border-radius: 3px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-size: small;
+    background-color: var(--my-button-background);
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 3px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: var(--my-button-color);
+    padding: 6px 6px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: var(--my-button-color);
+    color: var(--my-button-background);
+    border-radius: 3px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: var(--my-button-color);
+    color: var(--my-button-background);
+}
