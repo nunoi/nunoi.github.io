@@ -32,9 +32,9 @@ sass:
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
+google:
   #plus:            #username
-  #analytics:  UA-127763088-1
+  analytics:  UA-127763088-1
   #verify:
   #ad-client:
   #ad-slot:
@@ -44,7 +44,7 @@ sass:
 #################################
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag: "G-3ZCW50EBNB"
+#gtag: "G-3ZCW50EBNB"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
 #google_analytics: ""G-3ZCW50EBNB
