@@ -39,7 +39,7 @@ sass:
   #ad-client:
   #ad-slot:
 # Analytics
-google-analytics:
+gtag:
   provider               : "google-gtag"
   google:
     measurement_id          : "G-3ZCW50EBNB"
